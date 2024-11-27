@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <title>Formulaire</title>
+</head>
+
+<body>
+    <main>
+        <form action="/assets/css/style.css" method="get">
+
+            <fieldset class="first-field-color">
+                <legend class="first-field-color">votre identité</legend>
+                <div class="champ">
+                    <label for="lastname"> 1. nom :</label>
+                    <input type="text"+ placeholder="Nom">
+                    <div class="champ">
+                        <label for="firstname">2.Prénom:</label>
+                        <input type="text" + placeholder="Prénom">
+                    </div>
+                    <div class="champ">
+                        <label>3. Adresse mail:</label>
+                        <input type="text" + placeholder="Adresse mail">
+                    </div>
+                </div>
+            </fieldset>
+            <fieldset class="second-field-color">
+                <legend  class="second-field-color">Adresse de livraison</legend>
+                <div>
+                    <label>1.Adresse</label>
+                    <textarea cols="20" rows="4"></textarea>
+                    <div class="champs">
+                        <label>2.Code Postal:</label>
+                        <input type="text" + placeholder="Code Postal">
+                    </div>
+                    <div class="champs">
+                        <label>3.ville:</label>
+                        <input type="text" + placeholder="ville">
+                    </div>
+                </div>
+            </fieldset>
+            <fieldset  class="three-field-color">
+                <legend  class="three-field-color">Informations de règlement</legend>
+                <div>
+
+                    <Label for="typecarb:">1.type de carte bancaire: </Label><br>
+                    <div class="typecard">
+                        
+                        <input type="radio" name="cb" id="visa" value="visa">
+                        <label for="visa">visa</label><br>
+                        <input type="radio" name="cb" id="mastercard" value="mastercard">
+                        <label for="mastercard">mastercard</label><br>
+                    </div>
+
+                    <div class="champs">
+                        <label>2.Numero de carte:</label>
+                        <input type="number" + placeholder="Numero de carte">
+                    </div>
+                    <div class="champs">
+                        <label>3.Code de sécurité:</label>
+                        <input type="code" + placeholder="Code de sécurité">
+                    </div>
+                    <div class="champs">
+                        <label>4. Nom du titulaire:</label>
+                        <input type="nt" + placeholder="Nom du titulaire">
+                    </div>
+                </div>
+            </fieldset>
+            <input id="button" type="submit"  value="j'achète!">
+        </form>
+    </main>
+
+</body>
+<footer>
+    
+</footer>
+
+</html>

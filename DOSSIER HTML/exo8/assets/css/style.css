@@ -1,0 +1,23 @@
+main input
+{color: black;
+border: solid;
+border-color:yellowgreen;
+background: antiquewhite;
+}
+.three-field-color{
+  background-color:rgb(67, 107, 194);
+}
+.second-field-color{
+  background-color:rgb(34, 104, 235) ;
+}
+.first-field-color{
+background-color: rgb(49, 224, 224);
+}
+.submet{
+  background-color: rgb(135, 221, 5);
+  border: solid red;
+  border-radius: 8px;
+}
+.typecarb{
+  margin-left:20 px ;
+}
